@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="org.springframework.boot.ide.main.feature"
+	label="Spring Tool Suite 4 Main Feature"
+	version="4.4.0.201909171436-RELEASE"
+	provider-name="Pivotal, Inc.">
+
+    <description>
+       %description
+    </description>
+
+    <copyright>
+       %copyright
+    </copyright>
+
+    <license url="%licenseUrl">
+       %license
+    </license>
+
+    <requires>
+       <import feature="org.springframework.ide.eclipse.xml.namespaces.feature" version="3.9.9" match="greaterOrEqual"/>
+    </requires>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot"
+          download-size="235"
+          install-size="499"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.templates"
+          download-size="19"
+          install-size="41"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.validation"
+          download-size="49"
+          install-size="95"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+         
+    <plugin
+          id="org.springframework.ide.eclipse.boot.launch"
+          download-size="205"
+          install-size="471"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.wizard"
+          download-size="333"
+          install-size="780"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.restart"
+          download-size="18"
+          install-size="30"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.editor.support"
+          download-size="273"
+          install-size="594"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.imports"
+          download-size="22"
+          install-size="44"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+         
+    <plugin
+          id="org.springframework.ide.eclipse.buildship20"
+          download-size="16"
+          install-size="34"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.buildship30"
+          download-size="15"
+          install-size="32"
+          version="3.9.10.201909171046-RELEASE"
+          unpack="false"/>
+
+</feature>
